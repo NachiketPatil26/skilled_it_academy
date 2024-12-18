@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = ({ title, duration, education, rating, learners, badgeText }) => {
   return (
-    <div className="w-80 mt-10 rounded-lg drop-shadow-lg overflow-hidden font-sans">
+    <div className="w-80 mt-10 rounded-lg drop-shadow-lg overflow-hidden font-sans cursor-pointer hover:scale-105 transition-all duration-300 hover:border-1 hover:border-darkpurple">
       {/* Card Top Section */}
       <div className="bg-gray h-32 relative">
         {badgeText && (

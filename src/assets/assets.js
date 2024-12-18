@@ -16,32 +16,3 @@ export const assets = {
     graduate,
 }
 
-
-        title="Java Full Stack"
-        duration="3 to 6 Months"
-        education="Any Graduate"
-        rating="5"
-        learners="16k"
-        badgeText="Always NEW UPDATED"
-
-
-
-        title="Python Full Stack"
-        duration="3 to 6 Months"
-        education="Any Graduate"
-        rating="4.5"
-        learners="8k"
-        badgeText="Always NEW UPDATED"
-
-        title="AWS"
-        duration="3 to 6 Months"
-        education="Any Graduate"
-        rating="4.6"
-        learners="6k"
-        badgeText="Always NEW UPDATED"
-
-
-
-
-
-
