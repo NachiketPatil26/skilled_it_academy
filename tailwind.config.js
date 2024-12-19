@@ -18,6 +18,12 @@ export default {
       'neon-yellow':'#ffff00',
       'pink': '#eb008b',
       'gradpurple':'#6b2c90',
+      'cyan': '#20ffff',
+      'lavender': '#8696ef',
+      'gradpink': '#e536e0',
+      'red':'#ff0037',
+      'black':'#000000',
+      
     },
 
     extend: {

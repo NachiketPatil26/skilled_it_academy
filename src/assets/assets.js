@@ -5,6 +5,8 @@ import textboxImage from './textbox.png'
 import teacher from './teaching.png'
 import hiring from './hiring.png'
 import graduate from './graduate.png'
+import moresectionbg from './moresectionbg.png'
+import quote_icon from './quote-icon.png'
 
 export const assets = {
     logo,
@@ -14,5 +16,7 @@ export const assets = {
     teacher,
     hiring,
     graduate,
+    moresectionbg,
+    quote_icon,
 }
 
