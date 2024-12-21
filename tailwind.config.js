@@ -24,6 +24,10 @@ export default {
       'red': '#ff0037',
       'black': '#000000',
       'lime':'#bed136',
+      'f8cc47': '#f8cc47',
+      'e1a04a': '#e1a04a',
+      'eed783': '#eed783',
+      'f2b753': '#f2b753',
     },
 
     extend: {

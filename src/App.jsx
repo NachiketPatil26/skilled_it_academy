@@ -6,6 +6,7 @@ import Courses from './components/Courses'
 import MoreSection from './components/MoreSection'
 import HiringPatners from './components/HiringPatners'
 import NextDrive from './components/NextDrive'
+import Benefits from './components/Benefits'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <MoreSection/>
       <HiringPatners/>
       <NextDrive/>
+      <Benefits/>
     </div>
   )
 }

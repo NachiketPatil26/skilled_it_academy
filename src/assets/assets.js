@@ -21,6 +21,9 @@ import hsbc from './HSBClogo.svg'
 import asus from './asuslogo.png'
 
 import nextdrivebg from './nextdrivebg.png'
+import goldenwing from './goldenwing.png'
+
+import icon1 from './icon1.png'
 
 export const assets = {
     logo,
@@ -44,5 +47,100 @@ export const assets = {
     hsbc,
     asus,
     nextdrivebg,
+    goldenwing,
+    icon1,
 }
 
+export const col1 = [
+    {
+        icon : assets.icon1,
+        text : "Practical Experience through Real-World Projects"
+    },
+    {
+        icon : assets.icon1,
+        text : "Industrial Training by Top Industry Experts"
+    },
+    {
+        icon :assets.icon1,
+        text : "Live Doubt Resolution"
+    },
+    {
+        icon :assets.icon1,
+        text : "Interview Preparation & Mentoring"
+    },
+    {
+        icon :assets.icon1,
+        text : "Ideal for Both Working Professionals & Fresh Graduates"
+    },
+    {
+        icon :assets.icon1,
+        text : "Hands-on experience with Product Development & the Latest Technology"
+    },
+    {
+        icon :assets.icon1,
+        text : "We offer quality training & placement at a low cost"
+    },
+]
+
+export const col2 = [
+    {
+        icon : assets.icon1,
+        text : "100% Salary Hike with Structured Program & Dedicated Support"
+    },
+    {
+        icon : assets.icon1,
+        text : "100% Placement Record with 5-Star Rating on Google"
+    },
+    {
+        icon :assets.icon1,
+        text : "30+ Live Industrial Projects"
+    },
+    {
+        icon :assets.icon1,
+        text : "Career Guidance"
+    },
+    {
+        icon :assets.icon1,
+        text : "24/7 Help and Support"
+    },
+    {
+        icon :assets.icon1,
+        text : "Aptitude & Soft Skills Training"
+    },
+    {
+        icon :assets.icon1,
+        text : "Internships Provided"
+    },
+]
+
+
+export const col3 = [
+    {
+        icon : assets.icon1,
+        text : "Build Real-World Applications Like Amazon, Walmart, Zomato, Instagram etc."
+    },
+    {
+        icon : assets.icon1,
+        text : "Start Building Your Product f rom Day 1 with 100% Hands-On Training"
+    },
+    {
+        icon :assets.icon1,
+        text : "Preparation for Product-Based Companies"
+    },
+    {
+        icon :assets.icon1,
+        text : "Study materials, daily assignments, & project-related tasks."
+    },
+    {
+        icon :assets.icon1,
+        text : "Online and Offline Batches (Flexible Mode)"
+    },
+    {
+        icon :assets.icon1,
+        text : "Daily recorded sessions for revision"
+    },
+    {
+        icon :assets.icon1,
+        text : "Optimize Your Resume & LinkedIn Profile with Expert Assistance"
+    },
+]
