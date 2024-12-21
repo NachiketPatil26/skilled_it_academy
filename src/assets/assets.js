@@ -25,6 +25,13 @@ import goldenwing from './goldenwing.png'
 
 import icon1 from './icon1.png'
 
+import sachin_sir_pfp from './sachinsirpfp.png'
+import akshay_sir_pfp from './akshaysirpfp.png'
+import sagar_sir_pfp from './sagarsirpfp.png'
+import nayan_maam_pfp from './nayanmaampfp.png'
+
+import right_arrow from './right_arrow.svg'
+
 export const assets = {
     logo,
     hero_bg,
@@ -49,6 +56,11 @@ export const assets = {
     nextdrivebg,
     goldenwing,
     icon1,
+    sachin_sir_pfp,
+    akshay_sir_pfp,
+    sagar_sir_pfp,
+    nayan_maam_pfp,
+    right_arrow,
 }
 
 export const col1 = [

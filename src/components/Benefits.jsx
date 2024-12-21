@@ -37,11 +37,22 @@ const Benefits = () => {
     >
       {/* Heading Section */}
       <div className="flex flex-row items-center">
+         <motion.div className="flex flex-row items-center"
+              
+              initial={{ opacity: 0, y: 50 }} // Cards start from below
+              animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 50 }}
+              transition={{
+                duration: 0.8,
+                ease: "easeInOut", // Smooth easing
+              }}
+            >
+
         <img
           src={assets.goldenwing}
           alt="Golden Wing"
           className="w-32 mr-5 mb-10"
         />
+             
         <h1
           className="inline-block text-transparent bg-clip-text font-extrabold text-3xl mt-10 mb-10"
           style={{
@@ -57,6 +68,8 @@ const Benefits = () => {
           alt="Golden Wing"
           className="w-32 ml-5 mb-10 scale-x-[-1]"
         />
+         
+         </motion.div>
       </div>
 
       {/* Columns Section */}

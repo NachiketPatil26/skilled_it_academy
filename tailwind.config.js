@@ -33,6 +33,7 @@ export default {
     extend: {
       fontFamily: {
         'montserrat': ["Montserrat", "sans-serif"],
+        'playwrite': ["Playwrite AU VIC Guides", "sans-serif"],
       },
       animation: {
         'slide-groups': 'slide-groups 30s linear infinite',
