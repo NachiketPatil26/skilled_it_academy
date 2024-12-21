@@ -75,12 +75,12 @@ const Hero = () => {
           </div>
           <div className="flex flex-col items-center px-2 slide-up-item">
             <img src={assets.hiring} className="w-20" alt="" />
-            <Counter target={1000} delay={2} />
+            <Counter target={1000} delay={0} />
             <p className="text-center text-sm font-semibold drop-shadow-lg">Hiring Recruiters</p>
           </div>
           <div className="flex flex-col items-center px-2 slide-up-item">
             <img src={assets.graduate} className="w-20" alt="" />
-            <Counter target={12000} delay={3} />
+            <Counter target={12000} delay={0} />
             <p className="text-center text-sm font-semibold drop-shadow-lg">Students Placed</p>
           </div>
         </div>

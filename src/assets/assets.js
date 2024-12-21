@@ -7,6 +7,20 @@ import hiring from './hiring.png'
 import graduate from './graduate.png'
 import moresectionbg from './moresectionbg.png'
 import quote_icon from './quote-icon.png'
+import threedimage from './3Delement-removebg-preview.png'
+
+import zensar from './zensarlogo.png'
+import kayako from './kayakologo.png'
+import caterpillar from './caterpillarlogo.jpg'
+import lenskart from './lenskartlogo.png'
+import webex from './webexlogo.png'
+import tcs from './tcslogo.svg'
+import serco from './sercologo.png'
+import karvy from './Karvylogo.png'
+import hsbc from './HSBClogo.svg'
+import asus from './asuslogo.png'
+
+import nextdrivebg from './nextdrivebg.png'
 
 export const assets = {
     logo,
@@ -18,5 +32,17 @@ export const assets = {
     graduate,
     moresectionbg,
     quote_icon,
+    threedimage,
+    zensar,
+    kayako,
+    caterpillar,
+    lenskart,
+    webex,
+    tcs,
+    serco,
+    karvy,
+    hsbc,
+    asus,
+    nextdrivebg,
 }
 

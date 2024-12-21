@@ -1,6 +1,9 @@
 import React from 'react'
 import { assets } from '../assets/assets';
 import AllVidButton from './ALLVidButton';
+import TextReveal from '../animations/textanimation';
+import ThreeDcard from '../animations/threeDcard';
+
 
 
 const MoreSection = () => {
@@ -20,9 +23,10 @@ const MoreSection = () => {
 
            <div className='relative'>
                 <img src={assets.quote_icon} className='w-24 mb-4' alt="" />
-                <h1 className='text-white font-montserrat font-extrabold text-6xl leading-tight'>Explore Engaging <br />
-                Coding Videos for <br />
-                Every Skill Level"</h1>
+                <div className='text-white font-montserrat font-extrabold text-6xl leading-tight'>
+                
+                <TextReveal text={"Explore Engaging\nCoding Videos for\nEvery Skill Level"}/>
+                </div>
                 <h1 className='inline-block text-transparent bg-clip-text font-montserrat bg-gradient-to-r from-gradpink via-lavender to-cyan text-xl mt-4'>Explore expert-led coding videos for all skill levels and <br />
                  boost your coding skills at your own pace.</h1>
                 <div className='absolute mt-4'>
@@ -31,8 +35,8 @@ const MoreSection = () => {
            </div>
 
            {/* right section */}
-           <div>
-           
+           <div className='ml-20 w-64 h-72'>
+           <ThreeDcard/>
             
            </div>
         </div>
