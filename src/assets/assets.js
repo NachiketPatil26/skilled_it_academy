@@ -31,6 +31,8 @@ import sagar_sir_pfp from './sagarsirpfp.png'
 import nayan_maam_pfp from './nayanmaampfp.png'
 
 import right_arrow from './right_arrow.svg'
+import visionbg from './visionbg.png'
+import footerbg from './footerbg.png'
 
 export const assets = {
     logo,
@@ -61,6 +63,8 @@ export const assets = {
     sagar_sir_pfp,
     nayan_maam_pfp,
     right_arrow,
+    visionbg,
+    footerbg,
 }
 
 export const col1 = [

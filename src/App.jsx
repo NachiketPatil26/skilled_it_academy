@@ -9,6 +9,8 @@ import NextDrive from './components/NextDrive'
 import Benefits from './components/Benefits'
 import Banner from './components/Banner'
 import FAQ from './components/FAQ'
+import MissionVision from './components/Mission&Vision'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -22,6 +24,8 @@ const App = () => {
       <Benefits/>
       <Banner/>
       <FAQ/>
+      <MissionVision/>
+      <Footer/>
     </div>
   )
 }
