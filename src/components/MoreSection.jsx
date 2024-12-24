@@ -35,9 +35,9 @@ const MoreSection = () => {
            </div>
 
            {/* right section */}
-           <div className='ml-20 w-64 h-72'>
+           <div className='ml-20  h-96'>
            {/* <ThreeDcard/> */}
-           <img src={assets.threedimage} alt="" />
+           <img src={assets.threedimage} className='w-full h-full object-cover' alt="" />
             
            </div>
         </div>
