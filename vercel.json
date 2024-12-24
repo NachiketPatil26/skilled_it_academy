@@ -2,8 +2,7 @@
     "build": {
       "env": {
         "NPM_FLAGS": "--legacy-peer-deps"
-      },
-      "buildCommand": "npm install $NPM_FLAGS && npm run build"
+      }
     }
   }
   
