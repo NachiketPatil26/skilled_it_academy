@@ -2,7 +2,7 @@ import React from 'react'
 import { assets } from '../assets/assets';
 import AllVidButton from './ALLVidButton';
 import TextReveal from '../animations/textanimation';
-import ThreeDcard from '../animations/threeDcard';
+// import ThreeDcard from '../animations/threeDcard';
 
 
 
@@ -36,7 +36,8 @@ const MoreSection = () => {
 
            {/* right section */}
            <div className='ml-20 w-64 h-72'>
-           <ThreeDcard/>
+           {/* <ThreeDcard/> */}
+           <img src={assets.threedimage} alt="" />
             
            </div>
         </div>
